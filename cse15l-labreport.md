@@ -52,7 +52,7 @@ cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/
 cat /home/linux/ieng6/cs15lwi23/public/hello.txt
 ```
 
-![Image](server.png)
+![Image](server pdf.png)
 
 ---
 
