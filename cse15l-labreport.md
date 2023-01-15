@@ -12,7 +12,7 @@ To activate your account, enter the UCSD [educational technology services websit
 If you do not have vscode, enter [this link](https://code.visualstudio.com/) and `download the version specific to the device you are using`. 
 
 Following your download, open the application. You should see something like this:
-![Image](https://www.icloud.com/iclouddrive/017UrsHlzw3Gwu5O6u7LxFMsw#Screen_Shot_2023-01-14_at_11.19.39_PM)
+![Image](VSCode image.png)
 
 ## 3) Remotely Connecting to VSCode 
 ---
@@ -37,7 +37,7 @@ will pop up. enter 'yes' into your terminal and continue.
 If you are successful, you will be prompted to enter a password. In the terminal, `enter the password you just set for your CSE15L account`.
 
 you will see something along the lines of: 
-![Image](https://www.icloud.com/iclouddrive/0acqRMI7pl-F7UW_eXXtjmORw#Screen_Shot_2023-01-14_at_11.52.22_PM)
+![Image](commands image.png)
 
 ## 4) Running commands in the terminal 
 ---
@@ -52,7 +52,7 @@ cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/
 cat /home/linux/ieng6/cs15lwi23/public/hello.txt
 ```
 
-![Image](https://www.icloud.com/iclouddrive/075uX6xaIEQUOhhQb5Ya6fZHA#Screen_Shot_2023-01-15_at_12.20.01_AM)
+![Image](server.png)
 
 ---
 
