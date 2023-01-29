@@ -51,6 +51,7 @@ ls <directory> where <directory> is /home/linux/ieng6/cs15lwi23/cs15lwi23abc, wh
 cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/
 cat /home/linux/ieng6/cs15lwi23/public/hello.txt
 ```
+Once you have tried out these lines of code yourself, you should take note of what each one does. In this example, the line of code `cd` changes the directory that you are currently in, to the directory of your choice. You should also be able to tell that the line of code `cat` prints the contents of the file of your choosing. You should familiarize yourself with these terms as they are commonly used throughout the class. 
 
 ![Image](server pdf.png)
 
