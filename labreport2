@@ -13,10 +13,51 @@ the code, it looked like this:
 
 
 
+
+
 ---
 
 ## Part 2 - Identifying and fixing bugs
 
 From the lab from week 3, students were tasked with indentifying bugs from a code and reporting the failure inducing
-test, the symptoms, and what was changed in order to fix it. An example of this can be seen in the example below.
+test, the symptoms, and what was changed in order to fix it. An example of this can be seen in the example below:
 
+From the ArrayExamples file, the method `reversed` contained an error. The original code looked like:
+
+```
+static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = newArray[arr.length - i - 1];
+    }
+    return arr;
+}
+```
+
+When testing the method using a JUnit test,
+it resulted in an error message that looks like:
+
+![Image](error message.png)
+
+The failure inducing input was `{1, 2, 3}` and the symptom was `{0, 0, 0}`
+
+This happened because the code was creating a new array in order to pass the values of the originial array through it, 
+however, the code was instead updating the original array with values from the new Array, which was empty. Consequently,
+the new array was changed to become full of zeros and was returned. 
+
+In order to fix this error, we should change the code to look like this:
+
+```
+static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      newArray[i] = arr[arr.length - i - 1];
+    }
+    return newArray;
+}
+```
+Now, the code is updating the values of the newArray by using values from the original array. 
+
+---
+
+## Part 3
