@@ -11,6 +11,19 @@ Using the labs as a reference, I created the String Server using the wavelet fol
 `StringServer.java` and created two classes: the `Handler class` and the `StringServer class`. Once I finished with
 the code, it looked like this: 
 
+![Image](code.png)
+
+To explain what is going on in the code, we are first initializing the message to be blank. Then, we are starting the 
+local host and running the program. If there is no path, the code will print "Justin's String:" as there is no string. 
+However, if there is a the path `/add-message/` and there is a string after the query, then it will print that string.
+If we run the program again, the new string will be added under the first string. 
+
+For example, if we run these lines of code on the local host in VSCode:
+```
+- javac StringServer.java
+- java StringServer 4000
+```
+we will start the server with the port 4000.
 
 
 
