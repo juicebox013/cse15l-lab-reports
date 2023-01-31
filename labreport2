@@ -1,0 +1,22 @@
+# CSE15L Lab Report 2 by Justin Nguyen
+
+This week, students were tasked with the creation and implementation of a String Server in which takes in a String
+and prints it on the local website. If we want to add another String, it will print on a new line on the website. 
+
+---
+
+## Part 1 - creating the String Server
+
+Using the labs as a reference, I created the String Server using the wavelet folder. I created a new file called 
+`StringServer.java` and created two classes: the `Handler class` and the `StringServer class`. Once I finished with
+the code, it looked like this: 
+
+
+
+---
+
+## Part 2 - Identifying and fixing bugs
+
+From the lab from week 3, students were tasked with indentifying bugs from a code and reporting the failure inducing
+test, the symptoms, and what was changed in order to fix it. An example of this can be seen in the example below.
+
