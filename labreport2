@@ -23,11 +23,20 @@ For example, if we run these lines of code on the local host in VSCode:
 - javac StringServer.java
 - java StringServer 4000
 ```
-we will start the server with the port 4000.
+we will start the server with the port 4000 and the site will look like:
+![Image](empty string.png)
 
+Next, if we change the URL to contain `/add-message/` and add your string to the end of the query, you will add strings to the site.
+For example, if we run
+```
+-http://localhost:4000/add-message?s=hello
+and then
+-http://localhost:4000/add-message?s=there
+```
+we will get the site to look like:
+![Image](changes.png)
 
-
-
+Specific items, such as message and the URL are being changed every time we change the local host URL. 
 ---
 
 ## Part 2 - Identifying and fixing bugs
@@ -74,3 +83,7 @@ Now, the code is updating the values of the newArray by using values from the or
 ---
 
 ## Part 3
+
+Some things that I have learned throughout the past 2 weeks while in this class consist of learning how to
+create a program in which takes in a URL. I was also able to refresh my memory on how to correctly use JUnit tests
+to determine whether or not my code is working in the way I want. 
