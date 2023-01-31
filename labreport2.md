@@ -11,7 +11,7 @@ Using the labs as a reference, I created the String Server using the wavelet fol
 `StringServer.java` and created two classes: the `Handler class` and the `StringServer class`. Once I finished with
 the code, it looked like this: 
 
-![Image](code.png)
+![Image](code image.png)
 
 To explain what is going on in the code, we are first initializing the message to be blank. Then, we are starting the 
 local host and running the program. If there is no path, the code will print "Justin's String:" as there is no string. 
