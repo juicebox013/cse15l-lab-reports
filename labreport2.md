@@ -35,8 +35,10 @@ and then
 ```
 we will get the site to look like:
 ![Image](hello image.png)
-In this image, the methods 
+In this image, the handleRequest method was called. After it was called, it took in the URL as an argument and
+saw that it satisfied the requirement of including the "add-message" strinng, so it printed what came after in the website.
 ![Image](changes.png)
+The same process was repeated again here, but instead of "hello", we wrote "there" resulting in the final product you see. 
 
 Specific items, such as message and the URL are being changed every time we change the local host URL. 
 ---
