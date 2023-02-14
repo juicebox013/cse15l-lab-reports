@@ -34,7 +34,8 @@ and then
 -http://localhost:4000/add-message?s=there
 ```
 we will get the site to look like:
-![Image](
+![Image](hello image.png)
+In this image, the methods 
 ![Image](changes.png)
 
 Specific items, such as message and the URL are being changed every time we change the local host URL. 
