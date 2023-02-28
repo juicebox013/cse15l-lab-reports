@@ -16,10 +16,10 @@ place after the keyword. The syntax in which you would use this keyword can be d
 As an example, this command can be used like so within the written_2 directory:
 
 Example 1 input : `$ find written_2 -name ch1.txt`
-Example 1 output: ![Image](name image.png)
+Example 1 output: ![Image](-name image.png)
 
 Example 2 input : `$ find written_2 -name Bahamas-History.txt`
-Example 2 output: ![Image](name image2.png)
+Example 2 output: ![Image](-name image2.png)
 
 you can learn more about the `-name` command on a website such as [this](https://linuxhostsupport.com/blog/how-to-search-files-on-the-linux-terminal/#:~:text=The%20find%20command%20allows%20you%20to%20search%20a%20specific%20file,that%20you%20want%20to%20search.&text=You%20can%20use%20the%20following,f%20%E2%80%93%20regular%20file)
 
@@ -33,10 +33,10 @@ or folders.  The syntax in which you would use this keyword can be demonstrated 
 As an example, this command can be used like so within the written_2 directory:
 
 Example 1 input : `$ find written_2 -type f`
-Example 1 output: ![Image](type image.png)
+Example 1 output: ![Image](-type image.png)
 
 Example 2 input: `$ find written_2 -type d`
-Example 2 output: ![Image](type image2.png)
+Example 2 output: ![Image](-type image2.png)
 
 you can learn more about the `-type` keyword on a website such as [this](https://linuxize.com/post/how-to-find-files-in-linux-using-the-command-line/)
 
