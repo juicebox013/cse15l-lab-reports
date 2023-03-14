@@ -21,19 +21,25 @@ Once this repository has been forked, the timer begins !
 
 2. The first step would be to log into your remote account for the course using `ssh cs15lwi13xxx@ieng6.ucsd.edu`. Unlike 
 last time, we don't have to type in our password as we have generated an SSH key prior, saving us time. 
+![Image](step 2.png)
 
 3. The next step would be to clone the forked repository in the remote server. Instead of manually typing out the URL of 
 our forked repository, you can shorten the time spent by a tremendous amount if we copy the link and then type `git clone <tab>`
+![Image](step 3.png)
 
 4. Once the repository has been cloned, we want to show that the JUnit tests for the files run correctly and fail. To do this, we need 
 to first change into the correct repository using cd `l<tab>`. This will automatically finish the line of code to say `cd lab7`, which is the directory we changed into. Then, we want to run the copy the line of code `$ javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` and enter it into the terminal using. This compiles the code and now we want to run it using the line of code 
 `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests`. Do the same thing as before and enter it to the terminal to show that the tests fail.
+![Image](step 4.png)
 
 5. The next step would be to edit the code and fix it. To do this, we want to nano into the file by typing nano `List<tab>`. You will be prompted with a large amount of code and you can navigate down by holding down `<down key>` 33 times. Then you want to change the code to say `"index2 += 1"` instead of `"index1 += 1"`. To do this, press the `<right key>` 13 times and then press the `<delete>` key once. Then press `<2>`. Once you have done this, press `<enter>` and then save the file by entering `<control><x>`. this will 
+6. ![Image](step 5.png)
 
 6. The next step would be to save and compile the files once again to show that they work. Instead of re copying/pasting the code, you can 
 keep pressing `<up>` until you reach the line of codes. When you compile and run it again, it should work fine.
+![Image](step 6.png)
    
 7. The final steps would be to commit and push the files to github by entering `$ git add ListExamples.java` and `$ git commit -m "List Examples was edited"`
+![Image](step 7.png)
     
 youre done !
