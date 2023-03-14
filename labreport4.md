@@ -33,7 +33,7 @@ to first change into the correct repository using cd `l<tab>`. This will automat
 ![Image](step 4.png)
 
 5. The next step would be to edit the code and fix it. To do this, we want to nano into the file by typing nano `List<tab>`. You will be prompted with a large amount of code and you can navigate down by holding down `<down key>` 33 times. Then you want to change the code to say `"index2 += 1"` instead of `"index1 += 1"`. To do this, press the `<right key>` 13 times and then press the `<delete>` key once. Then press `<2>`. Once you have done this, press `<enter>` and then save the file by entering `<control><x>`. this will 
-6. ![Image](step 5.png)
+![Image](step 5.png)
 
 6. The next step would be to save and compile the files once again to show that they work. Instead of re copying/pasting the code, you can 
 keep pressing `<up>` until you reach the line of codes. When you compile and run it again, it should work fine.
