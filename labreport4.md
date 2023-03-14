@@ -26,13 +26,10 @@ last time, we don't have to type in our password as we have generated an SSH key
 our forked repository, you can shorten the time spent by a tremendous amount if we copy the link and then type `git clone <tab>`
 
 4. Once the repository has been cloned, we want to show that the JUnit tests for the files run correctly and fail. To do this, we need 
-to first change into the correct repository using cd `l<tab>`. Then, we want to run the copy the line of code `$ javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` and enter it into the terminal using `<tab>`. This compiles the code and now we want to run it using the line of code 
-`java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests`. Do the same thing as before and enter 
-`<tab>` to the terminal to show that the tests fail.
+to first change into the correct repository using cd `l<tab>`. This will automatically finish the line of code to say `cd lab7`, which is the directory we changed into. Then, we want to run the copy the line of code `$ javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` and enter it into the terminal using. This compiles the code and now we want to run it using the line of code 
+`java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests`. Do the same thing as before and enter it to the terminal to show that the tests fail.
 
-5. The next step would be to edit the code and fix it. To do this, we want to nano into the file by typing nano `List<tab>`. You will be prompted with
-a large amount of code and you can navigate down by holding down `<down key>`. Then you want to change the code to say `"index2 += 1"` instead of 
-`"index1 += 1"`. Once you have done this, press `<enter>` and then save the file.
+5. The next step would be to edit the code and fix it. To do this, we want to nano into the file by typing nano `List<tab>`. You will be prompted with a large amount of code and you can navigate down by holding down `<down key>` 33 times. Then you want to change the code to say `"index2 += 1"` instead of `"index1 += 1"`. To do this, press the `<right key>` 13 times and then press the `<delete>` key once. Then press `<2>`. Once you have done this, press `<enter>` and then save the file by entering `<control><x>`. this will 
 
 6. The next step would be to save and compile the files once again to show that they work. Instead of re copying/pasting the code, you can 
 keep pressing `<up>` until you reach the line of codes. When you compile and run it again, it should work fine.
